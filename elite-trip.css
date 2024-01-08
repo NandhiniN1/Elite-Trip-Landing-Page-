@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    padding:15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url("https://wallpapers-hub.art/wallpaper-images/156605.jpg");
+}
+
+header {
+    color:white;
+    text-align: center;
+    padding: 2rem;
+}
+p {
+    color:white;
+}
+.container{
+    justify-content:baseline;
+     margin-top: 1rem;
+    display: flex;
+    padding-left: 60rem;
+   }
+   .flex1-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    padding: 0;
+    gap:1rem;
+    
+    }
+    .flexitem{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        column-gap: 50px;
+        }
+
+  .btn{
+    background:red;
+    border-radius: 10px;
+  }
+ .btn:hover {
+        background-color: darkturquoise;
+        cursor: pointer;
+        color: white;
+        
+      }
+
+      .flex-check {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:25px ;
+        margin-left: auto;
+        margin-right: auto;
+        width:10%;
+        }
+        button{
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+            background: red;
+            color: white;
+        }
+        button:hover{
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+            background: aqua;
+            transition: 5ms;
+        }
+    
+.flex-container{
+display:flex;
+    column-gap:50px; 
+    row-gap:20px;
+    padding:20px;
+    color: white;
+    justify-content:center;
+    align-items:baseline;
+    width: 63%;
+    height:fit-content;
+    margin:auto;
+    margin-top: 5%;
+}
+
+.item{
+    column-gap:30px; 
+     row-gap:30px;
+     padding:10px;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
+     border:1px solid light silver  ;
+     cursor: pointer;
+ }
+
+a{
+color: white;
+text-decoration: underline;
+text-decoration-color: red;
+}
+
+.icon {
+    width: 20px; 
+    height: 20px;
+    margin-left: 13%; 
+    position: absolute;
+}
+
+
+
